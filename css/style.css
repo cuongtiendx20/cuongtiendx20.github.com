@@ -1,0 +1,49 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;		
+}
+/*Reset css*/
+#wrapper{
+	width: 960px;
+	height: 680px;
+	background:green;
+	margin: 0 auto;
+}
+.header{
+	width: 960px;
+	height: 147px;
+	background:grey;
+}
+.content{
+	width: 960px;
+	height: 470px;
+	background: #29ADFF;
+}
+.left{
+	width: calc( 70% - 40px );
+	height: calc(470px - 20px);
+	background: pink;
+	float: left;
+	padding: 10px 20px;
+}
+.left h1{
+	text-align: center;
+}
+.left h2{
+	font-style: italic;
+}
+.left p{
+	text-align: justify;
+}
+.right{
+	width: 30%;
+	height: 470px;
+	background: deeppink;
+	float: left;
+}
+.footer{
+	width: 960px;
+	height: 63px;
+	background: black;
+}
